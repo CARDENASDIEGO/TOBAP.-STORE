@@ -1,0 +1,100 @@
+        /* Fondo general */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('./images/DALL·E\ 2024-11-13\ 22.13.50\ -\ Create\ a\ logo\ for\ an\ online\ store\ named\ TOBAP.STORE\ with\ a\ style\ that\ blends\ vintage\ and\ technology\ elements.\ The\ design\ should\ have\ a\ retro\,\ antique\ .webp') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilo del menú */
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            width: 100%;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #6d4c41; /* Marrón oscuro */
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contenedor del formulario */
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+            margin-top: 100px; /* Espacio para el menú */
+        }
+
+        h1 {
+            text-align: center;
+            color: #5d4037; /* Marrón oscuro */
+            font-size: 24px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #4e342e; /* Marrón medio */
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            background-color: #8d6e63; /* Marrón claro */
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6d4c41; /* Marrón oscuro al pasar el mouse */
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .links a {
+            color: #6d4c41; /* Marrón oscuro */
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }

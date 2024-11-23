@@ -1,0 +1,169 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-icon {
+    width: 24px; /* Ajusta el tamaño del ícono */
+    height: 24px;
+    vertical-align: middle; /* Alinea con el texto si es necesario */
+    margin-right: 10px; /* Espaciado entre ícono y texto */
+}
+
+
+/* Encabezado */
+.header {
+    background-color: #333333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header .nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.header .user-actions a {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+/* Banner Principal */
+.banner {
+    background-image: url('./images/DALL·E\ 2024-11-13\ 22.13.50\ -\ Create\ a\ logo\ for\ an\ online\ store\ named\ TOBAP.STORE\ with\ a\ style\ that\ blends\ vintage\ and\ technology\ elements.\ The\ design\ should\ have\ a\ retro\,\ antique\ .webp');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    background-blend-mode: darken; /* Mezcla el color con la imagen */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Productos Destacados */
+.productos-destacados {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.productos-destacados h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.producto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #666;
+}
+
+.producto span {
+    font-size: 18px;
+    color: #f39c12;
+}
+
+.producto button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.producto button:hover {
+    background-color: #2ecc71;
+}
+
+/* Pie de Página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-media a:hover {
+    color: #f39c12;
+}
